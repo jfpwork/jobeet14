@@ -1,0 +1,13 @@
+# hidden files and directory #
+##############################
+.*
+!/.gitignore
+
+
+# temporary files #
+###################
+*~
+
+# test directory  #
+###################
+test/*
