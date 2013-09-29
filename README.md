@@ -65,3 +65,6 @@ $ php symfony cache:clear
 $ php symfony doctrine:generate-module --with-show --non-verbose-templates frontend job JobeetJob
 
 génère un module job dans l'application frontend pour le modèle JobeetJob
+
+La mise en page
+---------------
