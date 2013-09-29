@@ -1,3 +1,6 @@
+<!-- apps/frontend/modules/job/templates/indexSuccess.php -->
+<?php use_stylesheet('jobs.css') ?>
+
 <h1>Jobeet jobs List</h1>
 
 <table>
