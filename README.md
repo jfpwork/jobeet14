@@ -57,3 +57,11 @@ DIR > data/fixtures/*.yml
 
 La tâche doctrine:build --all --and-load est un raccourci pour 
 	la tâche doctrine:build --all suivie par la tâche doctrine:data-load.
+	
+Le voir en action dans le navigateur
+------------------------------------
+$ php symfony doctrine:build-forms
+$ php symfony cache:clear
+$ php symfony doctrine:generate-module --with-show --non-verbose-templates frontend job JobeetJob
+
+génère un module job dans l'application frontend pour le modèle JobeetJob
